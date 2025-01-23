@@ -1,0 +1,20 @@
+<!--empty alert nahi dikhana chahte to-->
+<!-- success ek array hai and usme koi value ho to aleert aaye for this we check success.length>0-->
+<% if(success && success.length){ %>
+    <div class="alert alert-success alert-dismissible fade show col-6 offset-3" role="alert">
+        <%= success %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button><!--for creating a cross buttoon to remove the flashed message-->
+    </div>
+    <%}%>
+
+    <!-- for error part-->
+    <% if(error && error.length){ %>
+        <div class="alert alert-danger alert-dismissible fade show col-6 offset-3" role="alert">
+            <%= error %>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button><!--for creating a cross buttoon to remove the flashed message-->
+        </div>
+        <%}%>
+    
+
+
+
