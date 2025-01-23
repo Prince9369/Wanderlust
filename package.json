@@ -1,6 +1,6 @@
 {
 
-  "engines": {//for deployment
+  "engines": {
     "node": "22.12.0"
   },
   "name": "majorproject",
