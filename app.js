@@ -72,9 +72,9 @@ const sessionOptions={
 };
 
 //ROOT ROUTE
-// app.get('/',(req,res)=>{
-//     res.send("Hi ,I am root route");
-// });
+app.get('/',(req,res)=>{
+    res.redirect('/listings');
+});
 
 
 
