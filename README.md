@@ -37,10 +37,10 @@ This project is a feature-rich Airbnb clone that demonstrates modern web develop
 ## Tech Stack
 
 - **Frontend:**
-  - React.js
-  - Next.js
-  - Tailwind CSS
-  - TypeScript
+ - EJS (Embedded JavaScript)
+  - Bootstrap
+  - HTML/CSS
+  - JavaScript
 
 - **Backend:**
   - Node.js
